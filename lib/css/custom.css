@@ -1,0 +1,42 @@
+body{
+	background: url('../img/bg1.jpg');
+}
+.navbar-default{
+	background: #c93312;
+	border-bottom: 1px solid #c93312;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fcf5e3;
+}
+.nav.navbar-nav	{
+	margin-top: 17px;
+}
+.nav.navbar-nav li a{
+	padding-top: 13px;
+}
+.nav.navbar-nav li.dropdown li{
+	height: 44px;
+}
+.nav.navbar-nav li.dropdown li a{
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	background-color: #c93312;
+	min-height: 170px;
+	color: #fcf5e3;
+}
+footer .panel {
+	background-color: #c93312;
+}
+footer .container .copyright{
+	margin-top:10px;
+}
+
+.jumbotron{
+	min-height: 435px;
+	color: #536055;
+}
