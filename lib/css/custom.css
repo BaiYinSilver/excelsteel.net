@@ -1,12 +1,42 @@
 body{
 	background: url('../img/bg1.jpg');
 }
+body.forging{
+	background: url('../img/bg2.jpg');
+}
+body.equipment{
+	background: url('../img/bg3.jpg');
+}
+body.about{
+	background: url('../img/bg4.jpg');
+}
+body.casting{
+	background: url('../img/bg5.jpg');
+}
+body.measuring-tools{
+	background: url('../img/bg6.jpg');
+}
+body .container .jumbotron{
+	/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+  /* IE 5-7 */
+  filter: alpha(opacity=95);
+  /* Netscape */
+  -moz-opacity: 0.95;
+  /* Safari 1.x */
+  -khtml-opacity: 0.95;
+  /* Good browsers */
+  opacity: 0.95;
+}
 .navbar-default{
-	background: #c93312;
-	border-bottom: 1px solid #c93312;
+	background: #1c64a1;
+	border-bottom: 1px solid #1c64a1;
 }
 .navbar-default .navbar-nav>li>a{
 	color: #fcf5e3;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #94C8FF;
 }
 .nav.navbar-nav	{
 	margin-top: 17px;
@@ -25,12 +55,12 @@ footer {
 	position: relative;
 	bottom: 0px;
 	width: 100%;
-	background-color: #c93312;
+	background-color: #1c64a1;
 	min-height: 170px;
 	color: #fcf5e3;
 }
 footer .panel {
-	background-color: #c93312;
+	background-color: #1c64a1;
 }
 footer .container .copyright{
 	margin-top:10px;
@@ -39,4 +69,12 @@ footer .container .copyright{
 .jumbotron{
 	min-height: 435px;
 	color: #536055;
+}
+.panel-esm .panel-heading{
+	background-color: #1c64a1;
+	font-size: 24px !important;
+	color: #fff;
+}
+body.contact .jumbotron .panel{
+	min-height: 330px;
 }
