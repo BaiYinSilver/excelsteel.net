@@ -20,20 +20,28 @@ body .container .jumbotron{
 	/* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
   /* IE 5-7 */
-  filter: alpha(opacity=95);
+  filter: alpha(opacity=90);
   /* Netscape */
-  -moz-opacity: 0.95;
+  -moz-opacity: 0.90;
   /* Safari 1.x */
-  -khtml-opacity: 0.95;
+  -khtml-opacity: 0.90;
   /* Good browsers */
-  opacity: 0.95;
+  opacity: 0.90;
+
+  color: black;
 }
+
+body .container .jumbotron ul{
+	line-height: 28px;
+}
+
 .navbar-default{
 	background: #1c64a1;
 	border-bottom: 1px solid #1c64a1;
 }
 .navbar-default .navbar-nav>li>a{
 	color: #fcf5e3;
+	font-size: 17px;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #94C8FF;
@@ -63,12 +71,24 @@ footer .panel {
 	background-color: #1c64a1;
 }
 footer .container .copyright{
-	margin-top:10px;
+	margin: 20px 0 0 17px;
+}
+footer .container .tandc{
+	margin: -18px 0 0 17px;
+	
+}
+footer .container .tandc a{
+	color: white !important;
+}
+
+footer .container .tandc a:hover{
+	color: #aaa !important;
 }
 
 .jumbotron{
 	min-height: 435px;
 	color: #536055;
+	font-size: 16px;
 }
 .panel-esm .panel-heading{
 	background-color: #1c64a1;
@@ -77,4 +97,7 @@ footer .container .copyright{
 }
 body.contact .jumbotron .panel{
 	min-height: 330px;
+}
+body.contact .jumbotron .panel hr{
+	margin: -4px 0 -20px 0;
 }
