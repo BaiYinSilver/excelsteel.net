@@ -35,6 +35,10 @@ body .container .jumbotron ul{
 	line-height: 28px;
 }
 
+body.casting .pp_pic_holder {
+	top: 100px !important;
+}
+
 .navbar-default{
 	background: #1c64a1;
 	border-bottom: 1px solid #1c64a1;
@@ -79,6 +83,8 @@ footer .container .tandc{
 }
 footer .container .tandc a{
 	color: white !important;
+	word-spacing: -10px;
+	text-justify: distribute;
 }
 
 footer .container .tandc a:hover{
